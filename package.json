@@ -1,0 +1,20 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "master javascript, react, data structures and algorithms and probably CSS HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^4.1.0"
+  }
+}
