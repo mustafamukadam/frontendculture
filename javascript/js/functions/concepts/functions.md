@@ -45,3 +45,15 @@ In JavaScript, the fundamental unit of execution is a function.
 arrow functions do not have this. If this is accessed, it is taken from the outside.
 
 https://javascript.info/arrow-functions
+
+## Function Values
+
+```
+var someObj = {};
+someObj.someProperty = "hey, I have a property now";
+
+var someFunc = function(a, b) { return a > b; };
+someFunc.someProperty = "hey, I have a property now, too";
+```
+
+Thus, anything you can do to an object, you can do to a function. However, function objects have an internal property (a notional property accessible to the JavaScript execution engine, but not accessible to JavaScript code) called [[Code]], and another internal property called [[FormalParameters]].

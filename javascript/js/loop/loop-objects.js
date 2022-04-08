@@ -10,13 +10,13 @@ for (const key in equine) {
 
 // 2. Unwrap the the Values
 
-// for (const val of Object.values(equine)) {
-//   console.log(val);
-// }
+for (const val of Object.values(equine)) {
+  console.log(val);
+}
 
-// // 3. Create a Map
-// const equine2 = new Map(Object.entries(equine));
+// 3. Create a Map
+const equine2 = new Map(Object.entries(equine));
 
-// for (const v of equine2.values()) {
-//   console.log(v);
-// }
+for (const v of equine2.values()) {
+  console.log(v);
+}

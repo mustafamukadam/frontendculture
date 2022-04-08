@@ -1,4 +1,9 @@
 https://github.com/lydiahallie/javascript-questions
+https://codeburst.io/clearing-your-front-end-job-interview-javascript-d5ec896adda4
+https://github.com/DopplerHQ/awesome-interview-questions
+
+Js PsDs
+https://github.com/trekhleb/javascript-algorithms
 
 // 67
 

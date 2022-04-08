@@ -1,0 +1,54 @@
+import { start } from "repl"
+
+App - RN
+    Map - coordinates
+    book cab - button
+    received acceptance
+    live location
+
+Confirmation - 
+    notification - 
+
+App driver -
+    notification (info passenger, location ...)- 
+        accept/reject
+        confirm(otp);
+
+
+BE - 
+
+Authentication
+
+Location - 
+    - Map servieces
+    - corrdinates of cabs nearby
+    - distance from current location of user
+    - Request(book) - 
+
+Booking - driver rating, profile, prices
+        - accept(otp) - OTPService
+
+MonitorCoordinates(coordinates) - notification(driver, passenger)
+
+//cabs info
+[
+    {
+        cabId: 'uniq identifier',
+        coordinates:{x:'',y:''},
+        driver:{/*Driver*/},
+    }
+]
+
+{
+    isBooked: Boolean;
+    start,{},
+    des:{},
+    isLive:true,
+    ridesCount:4,
+    RidesBooked:1,
+}
+
+
+
+
+

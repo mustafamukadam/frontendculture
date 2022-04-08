@@ -40,6 +40,8 @@ What differentiates a primitive from an object is that primitives do not have an
 
 ## event loop
 
+The entire script is initially executed as a macro task
+
 This means that the JS Engine is just an on-demand execution environment for any arbitrary JS code.
 So, for example, when your JavaScript program makes an Ajax request to fetch some data from the server, you set up the “response” code in a function (the “callback”), and the JS Engine tells the hosting environment:
 “Hey, I’m going to suspend execution for now, but whenever you finish with that network request, and you have some data, please call this function back.”
@@ -49,3 +51,17 @@ It’s interesting to note that ES6 specifies how the event loop should work, me
 ## building the page at runtime
 
 When the browser reaches the script node in the page-building phase, it pauses the DOM construction based on HTML code and starts executing JavaScript code instead.
+
+## Tips
+
+command+. in vscode for refactoring (like convert function to class)
+
+## Lexical
+
+Lexical environments are an internal implementation of the JavaScript scoping mechanism, and people often colloquially refer to them as scopes.
+
+Each execution context has a lexical environment associated with it that contains the mapping for all identifiers defined directly in that context.
+
+Whenever a function is called, a new function execution context is created and pushed onto the execution context stack. In addition, a new associated lexical environment is created.
+
+In JavaScript, every running function, code block {...}, and the script as a whole have an internal (hidden) associated object known as the Lexical Environment.
