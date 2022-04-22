@@ -3,8 +3,8 @@ https://fireship.io/snippets/javascript-loops-pro-tips/
 ## You have three main options when looping or iterating over values in JS.
 
 1. for - fastest, but ugly on the eyes
-2. for-of - slowest, but most sugary
-3. forEach - fast and designed for functional code
+2. forEach - fast and designed for functional code
+3. for-of - slowest, but most sugary
 
 4. for (but backwards) - absolute fastest - but terrible to look at and work with
 

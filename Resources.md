@@ -2,6 +2,8 @@
 
 ⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️ https://github.com/ayush013/javascript-code-challenges
 
+⭐️⭐️⭐️⭐️⭐️ https://github.com/andrew--r/frontend-case-studies
+
 !!! https://javascript.plainenglish.io/how-to-ace-a-ui-engineer-interview-1cfbdcf2ec83
 https://codeburst.io/10-javascript-concepts-you-need-to-know-for-interviews-136df65ecce
 
@@ -18,11 +20,13 @@ https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 ## tech blog
 
 https://netflixtechblog.com/
+https://www.joshwcomeau.com/snippets/
 
 ## Javascript
 
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
 https://www.educative.io/courses/learn-object-oriented-programming-in-javascript
+https://www.joshwcomeau.com/snippets/
 
 ## experience
 
