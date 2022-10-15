@@ -1,6 +1,7 @@
 ## Resources
 
-⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️⭐️ https://github.com/ayush013/javascript-code-challenges
+⭐️⭐️⭐️⭐️⭐ https://github.com/sadanandpai/javascript-code-challenges
+ui-bootcamp https://github.com/ayush013/
 
 ⭐️⭐️⭐️⭐️⭐️ https://github.com/andrew--r/frontend-case-studies
 
