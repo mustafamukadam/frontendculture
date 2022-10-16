@@ -1,8 +1,13 @@
+// import "./play.js";
+
 // # async
-import "./js/async/callbacks.js";
+// import "./js/async/promise.js";
+// import "./js/async/callbacks.js";
+import "./js/async/fireshipPromise.js";
 // import "./js/async/promises.js";
 // import "./js/async/promisesAll.js";
 // import "./js/async/promiseSetTimeOut.js";
+// import "./js/async/challenges/promisify.js";
 
 // ---------------------------------------------------------------
 

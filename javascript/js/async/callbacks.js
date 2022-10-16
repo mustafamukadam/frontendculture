@@ -1,4 +1,3 @@
-console.log("callbacks");
 function loadScript(src, callback) {
   console.log("inside loadScripts");
   let script = document.createElement("script");
@@ -14,4 +13,3 @@ loadScript(
     console.log(_); // _ is a function declared in the loaded script
   }
 );
-``;
