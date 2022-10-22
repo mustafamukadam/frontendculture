@@ -1,4 +1,4 @@
-- Weekly Contests <- How do I measure my performance, I am solving questions but am I improving  
+- Weekly Contests <- How do I measure my performance, I am solving questions but am I improving
 
 - Try following this format - just follow Explore cards: DP, Array, Graph, Top Interview Q, Recursion ..
 
@@ -56,4 +56,9 @@ return helper(root, other_information)
 - Keep taking notes about what a problem is teaching you. Keep revisiting them. Spaced repitition helps in committing things to memory.
 
 # More
+
 - when interviewers ask follow up questions on a problem or ask for an alternative solution.
+
+- ⭐️ I can use Js [] as stack if I commit to use operations that manipulate same end of the array (i.e. push and pop)
+- In recursion, base case is really just a scenario where don't have a recursive call.
+- ⭐️⭐️ There is NO way to do a BFS recursively (because of Stack in recursion, and stack = DFS)
