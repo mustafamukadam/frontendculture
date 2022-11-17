@@ -1,4 +1,5 @@
 // import "./play.js";
+// import "./snippets.js";
 
 // # async
 // import "./js/async/promise.js";
@@ -24,7 +25,9 @@
 // # datatypes
 // import "./js/datatypes/datatypes.js";
 
+// ---------------------------------------------------------------
+
 // # programs
-// import "./js/programs/flatten.js";
+import "./js/programs/stateQueue.js";
 // import "./js/programs/graph/graph.js";
-import "./js/programs/dp/howSum.js";
+// import "./js/programs/dp/attempt/canSumPlay.js";

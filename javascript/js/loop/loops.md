@@ -15,3 +15,17 @@ Array implements iterator function that allows it to be looped over - arr[Symbol
 ## iterate over objects
 
 In JavaScript, Object s are not iterable unless they implement the iterable protocol
+
+##
+
+instead of
+
+```
+queue.forEach(q => {})
+```
+
+do
+
+```
+for (let q of queue) {
+```

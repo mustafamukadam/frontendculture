@@ -20,3 +20,12 @@ let o = {
 for (let k of Object.keys(o)) {
     console.log(k)
 }
+
+//
+let p = new Promise(function (resolve, reject) {
+    //   resolve(1);
+    return 5;
+}).then(function (result) {
+    console.log(result); // never executed
+});
+console.log(p); // pending state, never settled
