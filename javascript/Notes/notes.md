@@ -2,8 +2,6 @@ courses on educative - with assessments
 https://www.educative.io/mycourses?filter_type=all
 even udemy is not that bad
 
-# Refer specs also. Not that difficult as you might think.
-
 ## good exercise solution pattern
 
 https://frontendmasters.com/courses/js-fundamentals-functional-v2/
@@ -54,6 +52,7 @@ When the browser reaches the script node in the page-building phase, it pauses t
 
 ## Tips
 
+cmd+shift+v to preview md in next tab (without split)
 command+. in vscode for refactoring (like convert function to class)
 
 ## Lexical
@@ -65,3 +64,16 @@ Each execution context has a lexical environment associated with it that contain
 Whenever a function is called, a new function execution context is created and pushed onto the execution context stack. In addition, a new associated lexical environment is created.
 
 In JavaScript, every running function, code block {...}, and the script as a whole have an internal (hidden) associated object known as the Lexical Environment.
+
+# Questions
+
+Implement Promise/Promise-related APIs: Promise, Promise.all
+
+# Js toolbox
+
+arr.slice() to create copy of array
+
+# Notes
+
+as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
+https://www.greatfrontend.com/questions/javascript/flatten

@@ -1,3 +1,16 @@
+let p = Promise.resolve('done!')
+console.log('p', p)
+let p1 = Promise.resolve(p)
+console.log('p1', p1)
+p1.then(data => console.log(data))
+
+/**
+ * ⭐️ My conclusion from above code -
+ * If I pass a promise object (state=fulfilled) p as parameter to Promise.resolve(p),
+ * it will NOT return fulfilled promise object (i.e., p), BUT resolved value of passed promise object (i.e. whatever value p resolves to)
+ */
+
+
 /**
  * one and two will be printed and then boom 💥
  * if error is not handled, script dies with a message in the console

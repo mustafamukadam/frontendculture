@@ -3,12 +3,8 @@
 
 // # async
 // import "./js/async/promise.js";
-// import "./js/async/callbacks.js";
-// import "./js/async/fireshipPromise.js";
-// import "./js/async/promises.js";
-// import "./js/async/promisesAll.js";
-// import "./js/async/promiseSetTimeOut.js";
-// import "./js/async/challenges/promisify.js";
+// import "./js/async/fireship/loop-async-await.js";
+import "./js/async/challenges/PromiseAll.js"
 
 // ---------------------------------------------------------------
 
@@ -28,6 +24,4 @@
 // ---------------------------------------------------------------
 
 // # programs
-import "./js/programs/stateQueue.js";
-// import "./js/programs/graph/graph.js";
-// import "./js/programs/dp/attempt/canSumPlay.js";
+// import "./js/_programs/flatten.js";

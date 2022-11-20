@@ -66,3 +66,21 @@ secondFunction();
 
 With promises, we have single catch() that will handle error anywhare in asynchronous code. If same code were callback based, we'd have to have separate error handler for every single one of asynchronous operations.
 If error is thrown anywhere in code, its going to bypass all of the future then() callbacks and go straight to the catch() callback.
+
+## await
+
+await causes a new event loop tick (see image)
+https://youtu.be/pLMyh9wosBk?t=8490
+
+https://youtu.be/vn3tm0quoqE?t=612
+you need to be careful when using async await in a map or forEach loop, because it won't actually pause the function in this context.
+It will run all promises concurrently
+
+`
+const smoothie = fruits.map(async v=> {
+  const emoji = await getFruit(v)
+  console.log(emoji)
+  return emoji
+})
+`
+if you want to run a loop and have every iteration in it await a promise, u need to use traditional for-loop
