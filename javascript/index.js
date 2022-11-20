@@ -4,7 +4,7 @@
 // # async
 // import "./js/async/promise.js";
 // import "./js/async/fireship/loop-async-await.js";
-import "./js/async/challenges/PromiseAll.js"
+import "./js/async/programs/PromiseAll.js"
 
 // ---------------------------------------------------------------
 
