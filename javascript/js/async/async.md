@@ -84,3 +84,6 @@ const smoothie = fruits.map(async v=> {
 })
 `
 if you want to run a loop and have every iteration in it await a promise, u need to use traditional for-loop
+
+⭐️⭐️⭐️ https://www.youtube.com/watch?v=bfxglBVSNDI
+"async functions are called synchronously.."

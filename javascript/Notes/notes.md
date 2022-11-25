@@ -1,3 +1,17 @@
+## Tips
+- Markdown editing tips - https://code.visualstudio.com/docs/languages/markdown
+- understand how libraries comment their code
+cmd+shift+v to preview md in next tab (without split)
+command+. in vscode for refactoring (like convert function to class)
+- Make notes in Udemy courses
+- Github - add Javascript questions, QnA ...
+Pratise question from course - https://servicenow.udemy.com/course/modern-javascript/learn/lecture/9873198#overview
+Download exercise files from courses - Pluralsight, udemy...
+    https://github.com/jonasschmedtmann/complete-javascript-course
+
+⭐️ Write Story for every important problem that you solve
+
+# Resources
 courses on educative - with assessments
 https://www.educative.io/mycourses?filter_type=all
 even udemy is not that bad
@@ -50,11 +64,6 @@ It’s interesting to note that ES6 specifies how the event loop should work, me
 
 When the browser reaches the script node in the page-building phase, it pauses the DOM construction based on HTML code and starts executing JavaScript code instead.
 
-## Tips
-
-cmd+shift+v to preview md in next tab (without split)
-command+. in vscode for refactoring (like convert function to class)
-
 ## Lexical
 
 Lexical environments are an internal implementation of the JavaScript scoping mechanism, and people often colloquially refer to them as scopes.
@@ -77,3 +86,4 @@ arr.slice() to create copy of array
 
 as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
 https://www.greatfrontend.com/questions/javascript/flatten
+

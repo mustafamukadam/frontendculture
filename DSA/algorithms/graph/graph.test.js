@@ -94,5 +94,10 @@ const graph = {
 //   f: [],
 // };
 
-// dfs(graph, "a");
-dfsR(graph, "a");
+
+
+test('should graph traversal', () => {
+  console.log(':: ',dfsR(graph, "a"))
+  // console.log(':: ',dfs(graph, "a"))
+  // expect(dfsR(graph, "a")).toBe(null);
+});

@@ -29,3 +29,8 @@ do
 ```
 for (let q of queue) {
 ```
+
+## 
+Is reduce() bad? - HTTP 203 - https://www.youtube.com/watch?v=qaGjS7-qWzg&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=47
+Scope in JavaScript - HTTP 203 - https://www.youtube.com/watch?v=5LEuJNLfLN0&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=56
+JavaScript for-loops are… complicated - HTTP203 - https://www.youtube.com/watch?v=Nzokr6Boeaw&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=80

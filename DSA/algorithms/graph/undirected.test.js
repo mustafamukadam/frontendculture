@@ -37,5 +37,9 @@ const edges = [
     ["o", "n"],
 ]
 
-console.log(undirectedPath(edges, "j", "m")) // -> true
-// console.log(makeAdjacencyList(edges)) // -> true
+
+test('should graph traversal', () => {
+    console.log(undirectedPath(edges, "j", "m")) // -> true
+    console.log(makeAdjacencyList(edges)) // -> true
+    // expect(undirectedPath(edges, "j", "m")).toBe(true)
+  });

@@ -29,3 +29,23 @@ let p = new Promise(function (resolve, reject) {
     console.log(result); // never executed
 });
 console.log(p); // pending state, never settled
+
+// Promise.all
+function promiseAll(iterables){
+    return new Promise((resolve, reject) => {
+        let count = iterables.length
+        if(!count) resolve([])
+        const result = new Array(count)
+
+        iterables.forEach(async (iterable, index) => {
+            try {
+                let value = await iterable
+                count--
+                result[index] = value
+                if(count === 0) resolve(result)
+            } catch (error) {
+                reject(error)
+            }
+        });
+    })
+}
