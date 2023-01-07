@@ -7,6 +7,7 @@ function canSum(target, arr) {
         if (memo.has(target - num)) return memo.get(target - num)
         // else is not required
         else {
+            //recurrence relation
             let answer = canSum(target - num, arr)
             memo.set(target - num, answer)
             return answer
@@ -17,6 +18,7 @@ function canSum(target, arr) {
 
 test.skip('canSum without memo', () => {
     // console.log("👉",canSum(7,[3,4]))
+    //memo=new Map()
     expect(canSum(7,[5, 3])).toEqual(false);
     expect(canSum(7,[5,3,4,7])).toEqual(true);
     expect(canSum(8,[2,3,5])).toEqual(true);

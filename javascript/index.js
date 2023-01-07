@@ -4,15 +4,15 @@ import "./play.js";
 // import "./snippets.js";
 
 // # async
-// import "./js/async/promise.js";
+// import "./js/async/concept/promiseConcept.js"
 // import "./js/async/fireship/loop-async-await.js";
 // import "./js/async/programs/PromiseAll.js"
 
 // ---------------------------------------------------------------
 
 // # closure
-// import "./js/closure/closure.js";
-// import "./js/closure/execution.js";
+// import "./js/closure/concept/closure.js";
+// import "./js/closure/concept/execution.js";
 
 // ---------------------------------------------------------------
 

@@ -3,7 +3,7 @@ function canSum(target, arr){
     if(target === 0) return true
     if(target < 0) return false
 
-    // return arr.some(num=>canSum(target-num, arr))
+    // return arr.some(num=>canSum(target-num, arr)) // but then how memo?
     for(let num of arr){
         let result = canSum(target-num, arr)
         if(result) return true

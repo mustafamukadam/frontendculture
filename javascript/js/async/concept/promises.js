@@ -24,21 +24,21 @@ p2.then(
   (error) => console.log(error)
 );
 
-// -----------------------------------------------------------------
+//? -----------------------------------------------------------------
 
 //  A common trick is to map an array of job data into an array of promises, and then wrap that into Promise.all.
-let urls = [
-  "https://api.kanye.rest/1",
-  "https://api.kanye.rest/2",
-  "https://api.kanye.rest/3",
-];
+// let urls = [
+//   "https://api.kanye.rest/1",
+//   "https://api.kanye.rest/2",
+//   "https://api.kanye.rest/3",
+// ];
 
-let promises = urls.map((url) => fetch(url));
+// let promises = urls.map((url) => fetch(url));
 
-Promise.all(promises).then(console.log);
-// Promise.all(promises).then((responses) => responses.forEach(console.log));
-Promise.all(promises).then((responses) =>
-  responses.forEach((res) => {
-    res.json().then(console.log);
-  })
-);
+// Promise.all(promises).then(console.log);
+// // Promise.all(promises).then((responses) => responses.forEach(console.log));
+// Promise.all(promises).then((responses) =>
+//   responses.forEach((res) => {
+//     res.json().then(console.log);
+//   })
+// );

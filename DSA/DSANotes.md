@@ -2,12 +2,14 @@
 - Comment code and create template/story as much as you can for every category of problems! https://assets.leetcode.com/users/images/5f6b5d99-9616-4a35-a452-94eac143aab6_1659794761.1005166.png
 - Create commented template to solve particular kind of problem. Then maybe, pick questions and fill in those places.
   - Follow Story format 
-- ⭐️  memo key = argument to function
+
+# Dynamic Programming
+- ⭐️  memo key = argument to function = node value
   ⭐️  memo value = return value for that function call
               - unique set of arguments -> give particular result
               - go to exact return expression and add answer to memo object before return
-- node circle value = argument to function 
 - Alvin DP video - make notes of complexity explanation
+- neetcode https://www.youtube.com/watch?v=mBNrRy2_hVs
 
 # Uncategorized
 - Weekly Contests <- How do I measure my performance, I am solving questions but am I improving

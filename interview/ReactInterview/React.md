@@ -9,6 +9,18 @@ Under what conditions should you optimise using memo / callback?
 
 https://medium.com/@_ericelliott?p=62837cb2fd76
 
+## Notes
+
+https://twitter.com/dan_abramov/status/1157250198659354624?lang=en
+The mental model is synchronization. Not lifecycle.
+The question is not "when does this effect run" the question is "with which state does this effect synchronize with"
+
+useEffect(fn) // all state
+useEffect(fn, []) // no state
+useEffect(fn, [these, states])
+
+https://twitter.com/housecor/status/1437765667906854915?cxt=HHwWhoC5nbyQ_PMnAAAA
+
 ## Redux
 
 Middleware isn't required to support async in redux.

@@ -13,8 +13,3 @@ function canSum(target, arr){
     return false
 }
 
-
-
-/**COMMENTS COLOR */
-//! red
-/!** lime

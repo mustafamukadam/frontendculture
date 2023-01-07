@@ -7,3 +7,6 @@ async -
 
 mul()
 curry2
+
+
+console ninja extension

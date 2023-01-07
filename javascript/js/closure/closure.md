@@ -41,3 +41,8 @@ However, if there’s a nested function that is still reachable after the end of
 ## uses of closures
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
+
+## Notes
+What happens if a variable that is declared with the let keyword is redeclared in an inner block scope with the var keyword?
+Ans - An error is generated.
+What I thought - The var declaration shadows the let declaration.

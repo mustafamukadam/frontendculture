@@ -1,3 +1,7 @@
+Learn cache in browser
+https://www.greatfrontend.com/questions/quiz
+⭐️⭐️ https://replit.com/@li_kai/JavaScript-Cheatsheet#index.js
+⭐️ https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews
 ## Tips
 - Markdown editing tips - https://code.visualstudio.com/docs/languages/markdown
 - understand how libraries comment their code
@@ -8,6 +12,7 @@ command+. in vscode for refactoring (like convert function to class)
 Pratise question from course - https://servicenow.udemy.com/course/modern-javascript/learn/lecture/9873198#overview
 Download exercise files from courses - Pluralsight, udemy...
     https://github.com/jonasschmedtmann/complete-javascript-course
+Console Ninja extension
 
 ⭐️ Write Story for every important problem that you solve
 

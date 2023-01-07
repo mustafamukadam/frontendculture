@@ -1,4 +1,8 @@
 // //https://www.greatfrontend.com/questions/javascript/promise-all
+/*
+----------------------------- Final.  -----------------------------
+*/
+
 // forEach using then
 function promiseAll(promises) { // iterable instead of promises
     
@@ -29,7 +33,7 @@ let p = promiseAll([p0, p1, p2])
 p.then((data)=>console.log(data))
 
 /*
------------------------------ Solution.  -----------------------------
+----------------------------- More.  -----------------------------
 */
 
 // forEach using await

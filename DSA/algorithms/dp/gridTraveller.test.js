@@ -1,4 +1,3 @@
-// let memo = new Map()
 function gridTraveler(m, n, memo = new Map()) {
     if (memo.has(m + ',' + n)) return memo.get(m + ',' + n) // #m
 
@@ -17,16 +16,3 @@ test('should canSum', () => {
     expect(gridTraveler(3, 3)).toStrictEqual(6);
     expect(gridTraveler(2, 3)).toStrictEqual(3);
 });
-
-// 📌 More Solutions
-
-/* 📌 TODO and Notes
-gridTraveler(a, b) = gridTraveler(b, a)
-Edge case - either dimension is Zero
-Time complexity without memo = O(pow(2,n+m)) Look at video again to know why
-https://youtu.be/oBt53YbR9Kk?t=3178
-*/
-
-/* 📌 Description and Links
-how can sum or not..
-*/

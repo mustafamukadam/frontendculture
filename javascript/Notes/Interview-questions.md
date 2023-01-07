@@ -1,3 +1,11 @@
+Learn cache in browser
+practise creating all hooks - https://courses.webdevsimplified.com/view/courses/react-hooks-simplified/1327246-custom-hooks/4121572-14-how-to-create-custom-hooks
+
+⭐️ https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews
+https://replit.com/@li_kai/JavaScript-Cheatsheet#index.js
+
+https://www.greatfrontend.com/questions/quiz
+
 https://github.com/lydiahallie/javascript-questions
 https://codeburst.io/clearing-your-front-end-job-interview-javascript-d5ec896adda4
 https://github.com/DopplerHQ/awesome-interview-questions

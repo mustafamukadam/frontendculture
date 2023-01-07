@@ -22,46 +22,6 @@ We can add many handlers to 1 promise - but it's not chaining. In practice we ra
 
 - async method always returns Promise
 
-```
-async function getData() {
-  return await Promise.resolve("I made it!");
-}
-const data = getData();
-console.log(data); // Promise {<pending>}
-```
-
-But this logs value
-
-```
-async function getData() {
-  let data = await Promise.resolve("I made it!");
-  console.log(data); // I made it!
-}
-getData();
-```
-
----
-
-⭐️ If I uncomment await: line then "B" is printed at last. I am concluding that async function takes all of its code to last in queue, not sure
-check Q. 102 at https://github.com/lydiahallie/javascript-questions
-
-```
-const myPromise = () => Promise.resolve("I have resolved!");
-
-function firstFunction() {
-myPromise().then((res) => console.log("then: ", res));
-console.log("A");
-}
-
-async function secondFunction() {
-// console.log("await: ", await myPromise()); // await:
-console.log("B");
-}
-
-firstFunction();
-secondFunction();
-```
-
 ## error handling
 
 With promises, we have single catch() that will handle error anywhare in asynchronous code. If same code were callback based, we'd have to have separate error handler for every single one of asynchronous operations.
