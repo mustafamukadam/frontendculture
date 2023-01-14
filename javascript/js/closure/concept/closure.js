@@ -10,9 +10,11 @@ function Ninja() {
   };
 }
 
+// console.log('',Ninja.feints) // undefined
 var ninja1 = new Ninja();
+console.log(ninja1)
 ninja1.feint();
-console.log(ninja1.getFeints);
+// console.log(ninja1.getFeints());
 
 
 /**

@@ -1,7 +1,10 @@
 // write cd in terminal > drag file onto terminal > node filename.js
-//- Github - add Javascript questions, QnA ...
-import "./play.js";
+// import "./play.js";
 // import "./snippets.js";
+
+// _challenges and _programs
+import "./js/_challenges/currying.js";
+
 
 // # async
 // import "./js/async/concept/promiseConcept.js"
@@ -12,7 +15,8 @@ import "./play.js";
 
 // # closure
 // import "./js/closure/concept/closure.js";
-// import "./js/closure/concept/execution.js";
+// import "./js/closure/_programs/privateMethods.js";
+// import "./js/scope/_challenges/varAndLet.js";
 
 // ---------------------------------------------------------------
 
@@ -22,6 +26,11 @@ import "./play.js";
 
 // # datatypes
 // import "./js/datatypes/datatypes.js";
+
+// ---------------------------------------------------------------
+
+// # objects
+// import "./js/objects/_challenges/challenge1.js";
 
 // ---------------------------------------------------------------
 

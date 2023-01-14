@@ -1,39 +1,67 @@
-//https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews/
+// webdevsimplified - https://github.com/WebDevSimplified/debounce-throttle-js/blob/main/script.js
+//frontendinterviewhandbook - //https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews/
 
-function debounce(fn, duration) {
-    let id;
-    return function (...args) {
-      if (id) {
-        // reset timeout and prevent it from triggering
-        // if debounced function is called within duration
-        clearTimeout(id);
-      }
-      id = setTimeout(() => {
-        fn(...args);
-      }, duration);
-    };
+const input = document.querySelector("input")
+const defaultText = document.getElementById("default")
+const debounceText = document.getElementById("debounce")
+const throttleText = document.getElementById("throttle")
+
+const updateDebounceText = debounce((text) => {
+  debounceText.textContent = text
+})
+const updateThrottleText = throttle((text) => {
+  throttleText.textContent = text
+}, 100)
+
+function debounce(cb, delay = 1000) {
+  let timeout
+
+  return (...args) => {
+    clearTimeout(timeout)
+    timeout = setTimeout(() => {
+      cb(...args)
+    }, delay)
   }
-  
-  function throttle(fn, duration) {
-    let id;
-    return function (...args) {
-      if (id) {
-        // if throttled function is called within duration,
-        // do nothing
-        return;
-      }
-  
-      fn(...args);
-  
-      id = setTimeout(() => {
-        id = null; // release "lock"
-      }, duration);
-    };
+}
+
+function throttle(cb, delay = 1000) {
+  let shouldWait = false
+  let waitingArgs
+  const timeoutFunc = () => {
+    if (waitingArgs == null) {
+      shouldWait = false
+    } else {
+      cb(...waitingArgs)
+      waitingArgs = null
+      setTimeout(timeoutFunc, delay)
+    }
   }
-  
-  // usage example
-  const helloWorld = () => {
-    console.log('hello world');
-  };
-  const debouncedHelloWorld = debounce(helloWorld, 1000);
-  const throttledHelloWorld = throttle(helloWorld, 1000);
+
+  return (...args) => {
+    if (shouldWait) {
+      waitingArgs = args
+      return
+    }
+
+    cb(...args)
+    shouldWait = true
+
+    setTimeout(timeoutFunc, delay)
+  }
+}
+
+// document.addEventListener("mousemove", e => {
+//   incrementCount(defaultText)
+//   updateDebounceText()
+//   updateThrottleText()
+// })
+
+// function incrementCount(element) {
+//   element.textContent = (parseInt(element.innerText) || 0) + 1
+// }
+
+input.addEventListener("input", e=>{
+  defaultText.textContent = e.target.value
+  updateDebounceText(e.target.value)
+  updateThrottleText(e.target.value)
+})

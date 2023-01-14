@@ -49,3 +49,22 @@ function promiseAll(iterables){
         });
     })
 }
+
+/** 📌-----------------------------------📌  */
+
+// Function.prototype.defer = function(ms){
+//     let self = this
+//     return function(...args){
+//         setTimeout(() => {
+//             self(...args)
+//         }, ms);
+//         // console.log('this',self)
+//     }
+// }
+
+
+// function f(a, b) {
+//     alert( a + b );
+//   }
+  
+// f.defer(3000)(1, 2);// shows 3 after 1 second

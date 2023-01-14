@@ -1,4 +1,8 @@
-# Promise
+# Promise Resolution
+
+⭐️ There are 3 ways you could want promises to resolve, parallel (all together), sequential
+(1 after another), or a race (doesn't matter who wins).
+https://drive.google.com/file/d/1fI_UGuBCkBqlfy7-c-KCs8EHYnQzIwl6/view -> 3 Ways to Promise
 
 ## promise chaining
 

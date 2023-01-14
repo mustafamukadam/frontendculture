@@ -1,4 +1,5 @@
-Stealth Startup linkedin
+# Next Todo
+generate all possible combinations of 5 numbers in array - MMT# 
 
 Cracking the codind interview !!!
 ctci questions - https://leetcode.com/discuss/general-discussion/891461/CTCI-List
@@ -79,7 +80,6 @@ https://bonsaiden.github.io/JavaScript-Garden/
 
 # apply
 
-- ask that microsoft guy in ur twitter DM to refer
 - https://leetcode.com/discuss/career/1648867/Best-Indian-startups-(early-mid-stage)-to-work-for-at-SDE2-level-(engineering-and-culture-wise)
 - https://www.linkedin.com/in/ranjith-perumalla-88728688/
 - https://www.linkedin.com/in/saymannan/    (careem, dubai)

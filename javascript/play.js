@@ -1,41 +1,30 @@
-// Function.prototype.defer = function(ms){
-//     let self = this
-//     return function(...args){
-//         setTimeout(() => {
-//             self(...args)
-//         }, ms);
-//         // console.log('this',self)
-//     }
+// function sum(a){
+//   return function (b){
+//     if(b) return sum(a+b)
+//     else return a
+//   }
 // }
 
 
-// function f(a, b) {
-//     alert( a + b );
-//   }
-  
-// f.defer(3000)(1, 2);// shows 3 after 1 second
+// console.log('>>',sum())
 
-class Counter {
-    constructor() {
-      if (instance) {
-        throw new Error("You can only create one instance!");
+
+function sumArgs(num) {
+  let sum = 0
+  if (num) {
+      sum += num
+      return function foo(num) {
+          if (num) {
+              sum += num
+              return foo
+          }
+          return sum
       }
-      this.counter = counter;
-      instance = this;
-    }
-  
-    getCount() {
-      return this.counter;
-    }
-  
-    increment() {
-      return ++this.counter;
-    }
-  
-    decrement() {
-      return --this.counter;
-    }
   }
+  else return sum
+}
 
-  const singletonCounter = new Counter();
-  console.log(singletonCounter)
+// # Driver
+// let result = sumArgs() // 0
+let result = sumArgs(2)
+console.log('sumArgs: ', result);

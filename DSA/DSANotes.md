@@ -1,23 +1,12 @@
 # Tips to solve problems
 - Comment code and create template/story as much as you can for every category of problems! https://assets.leetcode.com/users/images/5f6b5d99-9616-4a35-a452-94eac143aab6_1659794761.1005166.png
 - Create commented template to solve particular kind of problem. Then maybe, pick questions and fill in those places.
-  - Follow Story format 
-
-# Dynamic Programming
-- ⭐️  memo key = argument to function = node value
-  ⭐️  memo value = return value for that function call
-              - unique set of arguments -> give particular result
-              - go to exact return expression and add answer to memo object before return
-- Alvin DP video - make notes of complexity explanation
-- neetcode https://www.youtube.com/watch?v=mBNrRy2_hVs
+- Follow Story format 
 
 # Uncategorized
 - Weekly Contests <- How do I measure my performance, I am solving questions but am I improving
 
 - Try following this format - just follow Explore cards: DP, Array, Graph, Top Interview Q, Recursion ..
-
-- Realizing DP problem: https://leetcode.com/problems/longest-increasing-subsequence/solution/
-  ⭐️⭐️ most dynamic programming problems can be solved this way.
 
 - Amazon likes to ask simple, basic array questions.
   We highly recommend you to practice First Unique Character in a String, which is a popular question being asked.

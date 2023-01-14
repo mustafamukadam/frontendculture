@@ -1,21 +1,28 @@
-Learn cache in browser
-practise creating all hooks - https://courses.webdevsimplified.com/view/courses/react-hooks-simplified/1327246-custom-hooks/4121572-14-how-to-create-custom-hooks
+## event loop
 
-⭐️ https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews
-https://replit.com/@li_kai/JavaScript-Cheatsheet#index.js
+The entire script is initially executed as a macro task
 
-https://www.greatfrontend.com/questions/quiz
+This means that the JS Engine is just an on-demand execution environment for any arbitrary JS code.
+So, for example, when your JavaScript program makes an Ajax request to fetch some data from the server, you set up the “response” code in a function (the “callback”), and the JS Engine tells the hosting environment:
+“Hey, I’m going to suspend execution for now, but whenever you finish with that network request, and you have some data, please call this function back.”
 
-https://github.com/lydiahallie/javascript-questions
-https://codeburst.io/clearing-your-front-end-job-interview-javascript-d5ec896adda4
-https://github.com/DopplerHQ/awesome-interview-questions
+It’s interesting to note that ES6 specifies how the event loop should work, meaning that technically it’s within the scope of the JS engine’s responsibilities, which is no longer playing just a hosting environment role. One main reason for this change is the introduction of Promises in ES6 because the latter require access to a direct, fine-grained control over scheduling operations on the event loop queue
 
-Js PsDs
-https://github.com/trekhleb/javascript-algorithms
+## building the page at runtime
 
-// 67
+When the browser reaches the script node in the page-building phase, it pauses the DOM construction based on HTML code and starts executing JavaScript code instead.
 
-# Notes:
+# Js toolbox 🛠
+
+arr.slice() to create copy of array
+
+# Notes
+
+as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
+https://www.greatfrontend.com/questions/javascript/flatten
+
+
+# Github: https://github.com/lydiahallie/javascript-questions
 
 - All object keys are string (except Symbol)
 - With "use strict", you can make sure that you don't accidentally declare global variables.
@@ -34,28 +41,3 @@ https://github.com/trekhleb/javascript-algorithms
 - An imported module is read-only: you cannot modify the imported module. Only the module that exports them can change its value.
 - The value of the accumulator is equal to the previously returned value of the callback function. If you don't pass the optional initialValue argument to the reduce method, the accumulator is equal to the first element on the first call (and curr value is equal to 2nd element I think).
 - With the import keyword, all imported modules are pre-parsed. This means that the imported modules get run first, the code in the file which imports the module gets executed after.
-
-## Revisit:
-
-- 8 (static in class)
-- 13, 31, 32 (event propagation)
-- 17 (template literals)
-- 22 (sessionStorage)
-- 24, 56 (Set)
-- 40 - [1].concat([]) is not [1,[]]???
-- 44 (generator)
-- 45 (Promise.race)
-- 46, 50, 54, 58 Tricky and Nice!
-- 49 (parseInt, radix)
-- 65 (BEST explanation of reducer!)
-- 66 class extend
-- 68 (wrapper)
-
-## Somewhat:
-
-- 19 (… in arguments)
-- 23 (multiple var with same variable)
-- 28 (IIFE and scoping and (x=1),(y=2))
-- 52 (throw error)
-- 57, 67 (import)
-- 61 (defineProperty)

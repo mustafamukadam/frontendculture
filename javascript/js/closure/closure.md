@@ -1,3 +1,14 @@
+# ⭐️⭐️⭐️⭐️ Lexical Environment creation clarity - 
+📝 So, counter.[[Environment]] has the reference to {count: 0} Lexical Environment. That’s how the function remembers where it was created, no matter where it’s called. The [[Environment]] reference is set once and forever at function creation time.
+
+Later, when counter() is called, a new Lexical Environment is created for the call, and its outer Lexical Environment reference is taken from counter.[[Environment]]:
+
+💡It means that - 
+FIRST - [[Environment]] which is a hidden property associated with function, is created at function creation time.
+THEN - when function is called(), __then__ new Lexical Environment is created for that call and 👉its outer Lexical Environment reference is TAKEN from counter.[[Environment]]" 👈
+
+--
+
 Closures are a straightforward side effect of the way scoping rules work in JavaScript.
 Know that a function retains access to the scope that it was created in. Know what this enables us to do with our code. Understand that closures allow data hiding, memoization, and dynamic function generation.
 
@@ -43,6 +54,14 @@ However, if there’s a nested function that is still reachable after the end of
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures
 
 ## Notes
+### Gist
+⭐️⭐️⭐️ Whenever a function is called, a new function **execution context** is created and pushed onto the execution context stack. In addition, a new associated **lexical environment** is created.
+
 What happens if a variable that is declared with the let keyword is redeclared in an inner block scope with the var keyword?
 Ans - An error is generated.
 What I thought - The var declaration shadows the let declaration.
+
+## closure
+
+That’s what closures are all about. They create a “safety bubble” of the function and the variables in scope at the point of the function’s definition,
+so that the function has all it needs to execute.
