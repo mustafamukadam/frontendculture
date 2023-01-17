@@ -25,7 +25,7 @@ export const postorderTraverse = (node, array) => {
 
 //          There Solution
 const preorderTraverse2 = (node, array) => {
-  if (!node) return array; // worked with just `if (!node) return;` also
+  if (!node) return array; // worked with just `if (!node) return;` also (nope it will be undefined when root = [])
   array.push(node.value);
   array = preorderTraverse2(node.left, array);
   array = preorderTraverse2(node.right, array);

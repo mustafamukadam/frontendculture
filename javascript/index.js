@@ -1,9 +1,9 @@
 // write cd in terminal > drag file onto terminal > node filename.js
-// import "./play.js";
+import "./play.js";
 // import "./snippets.js";
 
 // _challenges and _programs
-import "./js/_challenges/currying.js";
+// import "./js/_challenges/calcChaining.js";
 
 
 // # async
@@ -29,8 +29,18 @@ import "./js/_challenges/currying.js";
 
 // ---------------------------------------------------------------
 
+// # polyfilles
+// import "./js/polyfills/reducer.js";
+
+// ---------------------------------------------------------------
+
 // # objects
 // import "./js/objects/_challenges/challenge1.js";
+
+// ---------------------------------------------------------------
+
+// # design patterns
+// import "./js/designPatterns/observer.js";
 
 // ---------------------------------------------------------------
 

@@ -4,6 +4,8 @@
 - Follow Story format 
 
 # Uncategorized
+- Project showcase - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC4DbreUL&t=3212
+    https://github.com/devAbhijeet?tab=repositories
 - Weekly Contests <- How do I measure my performance, I am solving questions but am I improving
 
 - Try following this format - just follow Explore cards: DP, Array, Graph, Top Interview Q, Recursion ..

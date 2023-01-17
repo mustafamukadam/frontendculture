@@ -1,6 +1,7 @@
 // let p = Promise.resolve('done!')
 // console.log('p', p)
 // let p1 = Promise.resolve(p)
+// console.log('p1 === p', p1 === p) //true!
 // console.log('p1', p1)
 // p1.then(data => console.log(data))
 
@@ -45,47 +46,7 @@
  */
 
 //? -----------------------------------------------------------------
-
-// async function getData1() {
-//   return await Promise.resolve("I made it!");
-// }
-// const data1 = getData1();
-// console.log("data1",data1);
-
-// async function getData2() {
-//   let data2 = await Promise.resolve("I made it!");
-//   console.log("data2",data2);
-// }
-// getData2();
-
-
-//? -----------------------------------------------------------------
 // console.log('A', Promise.resolve("I have resolved!")); // Promise {<fulfilled>: 'I have resolved!'}
 // console.log('B', Promise.resolve("I have resolved!").then(console.log)); //I have resolved!
-
-//? -----------------------------------------------------------------
-
-//https://github.com/lydiahallie/javascript-questions Q. 102
-const myPromise = () => Promise.resolve("I have resolved!");  
-
-function firstFunction() {
-  myPromise().then((res) => console.log("then: ", res));
-  console.log("A");
-}
-
-async function secondFunction() {
-  console.log("await: ", await myPromise()); // commenting this makes then: print first
-  console.log("B");
-}
-
-firstFunction();
-secondFunction();
-
-/**
- * My conclusion - 
- * making secondFunction async and adding await results in secondFunction being added to event loop queue. And guess what,
- * then: call is already waiting there in line to be executed first. So everything in secondFunction (including synchronous code) is executed after then:
- * Also: await causes a new event loop tick https://youtu.be/pLMyh9wosBk?t=8490
- */
 
 //? -----------------------------------------------------------------

@@ -9,4 +9,6 @@
 
 # Links
 - Realizing DP problem: https://leetcode.com/problems/longest-increasing-subsequence/solution/
-  ⭐️⭐️ most dynamic programming problems can be solved this way.
+  ⭐️ most dynamic programming problems can be solved this way.
+
+- ⭐️ structy -  https://structy.net/problems/fib/problem-index

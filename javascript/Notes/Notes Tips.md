@@ -5,6 +5,7 @@
 - add questions to practise next in ToDo Next.md so as to keep grinding without confusion
 
 ## Tips
+- One of the most common types of interview questions is to recreate a common feature in JavaScript
 - Markdown editing tips - https://code.visualstudio.com/docs/languages/markdown
 - understand how libraries comment their code
 cmd+shift+v to preview md in next tab (without split)

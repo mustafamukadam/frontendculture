@@ -1,0 +1,1 @@
+https://jsvault.com/ - xx Not very sure on solutions - reduce: let accumulator = startingValue || undefined

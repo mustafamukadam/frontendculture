@@ -1,3 +1,7 @@
+## Showcase / Profile
+https://github.com/devAbhijeet?tab=repositories
+Project showcase - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC4DbreUL&t=3212
+
 ## Resources
 
 ⭐️⭐️⭐️⭐️⭐ https://github.com/sadanandpai/javascript-code-challenges
@@ -13,10 +17,6 @@ https://bonsaiden.github.io/JavaScript-Garden/
 
 http 203 google developer playlist
 https://www.youtube.com/watch?v=qaGjS7-qWzg&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bnNo9&index=3
-
-## design pattern
-
-https://addyosmani.com/resources/essentialjsdesignpatterns/book/
 
 ## tech blog
 

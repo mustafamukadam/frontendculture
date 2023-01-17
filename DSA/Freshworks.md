@@ -1,7 +1,19 @@
+# Further rounds
+⭐️ FE system design - https://www.youtube.com/playlist?list=PLI9W87-Dqn7j_x6QtR6sUjycJR7nQLBqT
+UI - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC4DbreUL&t=2877
+patterns.dev
+https://www.youtube.com/playlist?list=PLKhlp2qtUcSaCVJEt4ogEFs6I41pNnMU5
+https://blog.sessionstack.com/
+https://dev.to/devabhijeet/all-front-end-interview-questions-asked-during-my-recent-job-hunt-1kge
+create an accordion
+
+
+
 # Recently solved
 coin change 1
 442. Find All Duplicates in an Array (complexity)
 49. Group Anagrams
+2096. Step-By-Step Directions From a Binary Tree Node to Another
 
 ## Freshworks 
 "Word Break" problem 

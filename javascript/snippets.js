@@ -68,3 +68,20 @@ function promiseAll(iterables){
 //   }
   
 // f.defer(3000)(1, 2);// shows 3 after 1 second
+
+// Observer pattern 
+class Observable{
+    constructor(){
+        this.observers = []
+    }
+
+    subscribe(fn){
+        this.observers.push(fn)
+    }
+    unSubscribe(fn){
+        this.observers = this.observers.filter(observer => observer !== fn)
+    }
+    notify(data){
+        this.observers.forEach(observer=>observer(data))
+    }
+}

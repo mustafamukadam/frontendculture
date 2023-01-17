@@ -1,4 +1,11 @@
-# ⭐️⭐️⭐️⭐️ Lexical Environment creation clarity - 
+# ⭐️⭐️⭐️⭐️
+```
+function Foo() {
+   let name = "mustafa" // private variable
+   this.name = "mustafa // public because created on object if Foo called with new()
+}
+```
+# ⭐️⭐️ Lexical Environment creation clarity - 
 📝 So, counter.[[Environment]] has the reference to {count: 0} Lexical Environment. That’s how the function remembers where it was created, no matter where it’s called. The [[Environment]] reference is set once and forever at function creation time.
 
 Later, when counter() is called, a new Lexical Environment is created for the call, and its outer Lexical Environment reference is taken from counter.[[Environment]]:
@@ -65,3 +72,5 @@ What I thought - The var declaration shadows the let declaration.
 
 That’s what closures are all about. They create a “safety bubble” of the function and the variables in scope at the point of the function’s definition,
 so that the function has all it needs to execute.
+
+Creating closures in loops: A common mistake - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#creating_closures_in_loops_a_common_mistake
