@@ -85,3 +85,62 @@ class Observable{
         this.observers.forEach(observer=>observer(data))
     }
 }
+
+//? ------------------------------------------------------
+async function display(delay){
+    let value = await new Promise((res, rej) => {
+      setTimeout(() => res("hello"), delay)
+    })
+    console.log('here....', value)
+    return value
+  }
+  
+  const p = display(3000)
+  p.then(console.log)
+
+  //? -----------------------------------------------------------------
+  //promise all practise - successful - https://www.greatfrontend.com/questions/javascript/promise-all
+  function promiseAll(promises){
+
+    return new Promise((resolve, reject) => {
+      if(!promises.length) resolve([])
+  
+      let unresolvedCount = promises.length
+      let result = new Array(unresolvedCount)
+  
+      promises.forEach((promise, index) => {
+        Promise.resolve(promise).then(value => {
+          result[index] = value
+          unresolvedCount--
+          if(unresolvedCount === 0) resolve(result)
+        }).catch(e => reject(e))
+      });
+    })
+  }
+
+  //? -----------------------------------------------------------------
+  //promise all practise again with async - successful
+  // https://www.greatfrontend.com/questions/javascript/promise-all
+  function promiseAll(promises) {
+
+    return new Promise((resolve, reject) => {
+      if (!promises.length) resolve([])
+  
+      let unresolvedCount = promises.length
+      let result = new Array(unresolvedCount)
+  
+      promises.forEach(async (promise, index) => {
+        try {
+          let value = await promise
+          result[index] = value
+          unresolvedCount--
+          if (unresolvedCount === 0) resolve(result)
+        }
+        catch (e) {
+          reject(e)
+        }
+      });
+    })
+  }
+
+  //? -----------------------------------------------------------------

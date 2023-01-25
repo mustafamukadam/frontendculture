@@ -1,11 +1,27 @@
+callback, promises, async programing, settimeout
+❓❓ function that return boolean after 2 seconds (not possible)
+React
+
+
 # Javascript practise topics - 
-Polyfills - reduce, map, bind..
+polyfill for useMemo, useState etc.
+async fireship..
+Polyfills - map, filter, reduce, map, bind..
+Event emitter
 Promises - Promise implementation, Promise.all ... (webdevsimplified)
 Programs - currying, sum(1)(2)(), flatten, deep cloning
 debounce, throttle
 OOJS - Prototype questions, class inheritance (extends)
 object static methods.
 design patterns
+setInterval Polyfill
+async challenges - https://betterprogramming.pub/10-javascript-promise-challenges-before-you-start-an-interview-c9af8d4144ec
+https://medium.com/frontend-canteen/10-code-challenges-to-master-promise-then-and-promise-catch-3da2bdea1d97
+setImmediate
+ToDo async challenges starting from: https://github.com/sadanandpai/javascript-code-challenges/blob/main/challenges/async-challenges.md#q-execute-an-array-of-asynchronous-functions-one-after-the-other-in-sequence-using-callbacks
+
+# CSS
+https://blog.webdevsimplified.com/
 
 # Interview Experience
 ⭐️ https://www.ambitionbox.com/interviews/freshworks-interview-questions

@@ -12,11 +12,16 @@ function promiseAll(promises) { // iterable instead of promises
         let result = new Array(unresolvedCount)
 
         promises.forEach((promise, index)=>{
+            //non-Promise values need to be wrapped in Promise.resolve()
+            //which allows us to use .then() and
+            //don't have to differentiate between Promise vs non-Promise values and whether they need to be resolved.
                 Promise.resolve(promise).then(value=>{
                     result[index] = value
                     unresolvedCount--
                     if(unresolvedCount === 0) resolve(result)
-                }).catch(reject)
+                })//If any of the promises reject,
+                // will immediately call .catch with the error of the failed promise.
+                .catch(reject)
             })
         })    
 }
@@ -79,7 +84,7 @@ function promiseAll(iterables){
 }
 
 /**
- * Expectation: function will input [...promises] and return <Promise> that will resolve to [...values] ->
+ * Expectation: function will take input [...promises] and return <Promise> that will resolve to [...values] ->
  * 
  * Story:
  * 1. return a Promise (which means this Promise should resolve to [...values])

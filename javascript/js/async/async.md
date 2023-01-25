@@ -1,3 +1,4 @@
+⭐️⭐️ https://bytefish.medium.com/list/code-chanllenge-0b76b6b40281
 # Promise Resolution
 
 ⭐️ There are 3 ways you could want promises to resolve, parallel (all together), sequential

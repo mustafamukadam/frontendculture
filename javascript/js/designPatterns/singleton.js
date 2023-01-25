@@ -1,3 +1,4 @@
+let instance;
 class Counter {
     constructor() {
       if (instance) {

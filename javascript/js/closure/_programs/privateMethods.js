@@ -3,7 +3,7 @@
 
 /**
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures#emulating_private_methods_with_closures
-* return object with public methods by calling method
+* return object with public methods by calling method (IIFE)
 */
 const counter = (function () {
     

@@ -65,3 +65,18 @@ input.addEventListener("input", e=>{
   updateDebounceText(e.target.value)
   updateThrottleText(e.target.value)
 })
+
+// https://www.frontendinterviewhandbook.com/blog/a-glimpse-into-front-end-interviews
+function simpleThrottle(cb, delay){
+  let waitId = null
+
+  return function(...args){
+    if(waitId) return
+
+    cb(...args)
+
+    waitId = setTimeout(() => {
+      waitId = null // release lock
+    }, delay)
+  }
+}
