@@ -5,6 +5,7 @@
 - add questions to practise next in ToDo Next.md so as to keep grinding without confusion
 
 ## Tips
+- Devtools hint for inactive CSS properties - https://www.youtube.com/watch?v=UVtXrWvq_oI&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=2
 - One of the most common types of interview questions is to recreate a common feature in JavaScript
 - Markdown editing tips - https://code.visualstudio.com/docs/languages/markdown
 - understand how libraries comment their code

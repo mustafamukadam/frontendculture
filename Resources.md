@@ -5,10 +5,11 @@ Project showcase - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC
 
 ## Resources
 
-⭐️⭐️⭐️⭐️⭐ https://github.com/sadanandpai/javascript-code-challenges
+⭐️⭐️⭐️⭐️⭐ Implement reactivity from Scratch - vue 3 reactivity course (downloaded)
+⭐️ https://github.com/sadanandpai/javascript-code-challenges
 ui-bootcamp https://github.com/ayush013/
 
-⭐️⭐️⭐️⭐️⭐️ https://github.com/andrew--r/frontend-case-studies
+⭐️ https://github.com/andrew--r/frontend-case-studies
 
 !!! https://javascript.plainenglish.io/how-to-ace-a-ui-engineer-interview-1cfbdcf2ec83
 https://codeburst.io/10-javascript-concepts-you-need-to-know-for-interviews-136df65ecce

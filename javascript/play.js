@@ -1,15 +1,15 @@
-class A {
-    fooBind = this.foo.bind(this)
-    constructor(cb){
-        this.state = "mustafa"
-        cb(this.fooBind)
-        // cb(this.foo)
-    }
+// console.log('>',data.length)
+// console.log('>',data[0])
 
-    foo(data){
-        console.log('this: ',this)
-    }
-}
+// const newData = data.map(d => {
+//     return {
+//         name: d.name,
+//         groceryItems: d.groceryItems,
+//         imageLink: d.imageLink,
+//         recipeLink: d.recipieLink     
+//     }
+// })
 
-let a = new A((res)=>res("hi"))
-console.log('a: ',a)
+// console.log('new: ', newData)
+
+console.log('>')
