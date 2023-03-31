@@ -1,3 +1,4 @@
+// write answers and explanation in toggle like Lydia repo and open MD preview to refer questions
 /** 📌-------------- let initialization ---------------------📌 */
 
 // let x = 1;
@@ -9,10 +10,11 @@
 // func();
 
 
+// ------------- var -------------
 // var x = 1;
 
 // function func() {
-//   console.log(x); // undefined
+//   console.log(x);
 //   var x = 2;
 // }
 // func();

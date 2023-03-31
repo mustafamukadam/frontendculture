@@ -5,7 +5,10 @@ There are two main types of JavaScript code:
 When our code is being executed by the JavaScript engine, each statement is executed in a certain execution context
 
 we have two types of execution contexts:
-**global execution context**
+
+**global execution context** and
+
+
 **function execution context**
 
 There’s only one global execution context, created when our JavaScript program starts executing,

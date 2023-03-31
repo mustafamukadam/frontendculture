@@ -1,11 +1,14 @@
 # Next Todo
+
+⭐️ Ask ChatGPT+ and Claude+ to list common DSA questions invloving recursion and give some eg that anything like this.
+
 generate all possible combinations of 5 numbers in array - MMT# 
 Backtracking - Combination Sum, Permutation, N-Queen
 
 // structy many DP problems (with video) free
 https://structy.net/problems/fib/problem-index
 
-Cracking the codind interview !!!
+Cracking the codind interview
 ctci questions - https://leetcode.com/discuss/general-discussion/891461/CTCI-List
 https://leetcode.com/list/571r9emv/
 https://github.com/trekhleb/javascript-algorithms
@@ -43,6 +46,7 @@ https://leetcode.com/problems/sort-an-array/discuss/461394/Python-3-(Eight-Sorti
 
 # 3. Blog/Articles/videos -
 
+- https://github.com/labuladong/fucking-algorithm/tree/english
 ⭐️ https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ
 https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/ NICE !!!
 https://leetcode.com/discuss/interview-experience/1664001/FAANG-Preparation-Journey
@@ -70,17 +74,6 @@ https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-go
   https://www.bigocheatsheet.com/
 - https://frontendmasters.com/courses/practical-algorithms/
 - https://github.com/kunal-kushwaha/Competitive-Programming-Resources
-
-
-
-### Javascript
-
-// good with quick explanations and code snippets
-https://bonsaiden.github.io/JavaScript-Garden/
-
-### Questions
-
-- Remove duplicate string
 
 # apply
 

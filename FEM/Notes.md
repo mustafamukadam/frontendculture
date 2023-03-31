@@ -1,0 +1,1 @@
+Best way to learn is using devtools (firefox). It displays all the info on element specially look for flex items

@@ -96,3 +96,11 @@ const counter = (function () {
   alert( counterInfo.up() ); // ?
   alert( counterInfo.up() ); // ?
   alert( counterInfo.down() ); // ?
+
+/**
+ * My attempt at constructor function way
+ */
+  function Counter(){
+    this.count = 0;    
+}
+Counter.prototype.increment = function(){this.count++}

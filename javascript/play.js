@@ -1,15 +1,7 @@
-// console.log('>',data.length)
-// console.log('>',data[0])
+let x = 1;
 
-// const newData = data.map(d => {
-//     return {
-//         name: d.name,
-//         groceryItems: d.groceryItems,
-//         imageLink: d.imageLink,
-//         recipeLink: d.recipieLink     
-//     }
-// })
-
-// console.log('new: ', newData)
-
-console.log('>')
+function func() {
+  console.log(x); // undefined
+  var x = 2;
+}
+func();
