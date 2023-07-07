@@ -30,39 +30,3 @@ https://www.greatfrontend.com/questions/quiz
 
 https://codeburst.io/clearing-your-front-end-job-interview-javascript-d5ec896adda4
 https://github.com/DopplerHQ/awesome-interview-questions
-
-Js PsDs
-https://github.com/trekhleb/javascript-algorithms
-
-// 67
-
-
-
-## Revisit:
-
-- 8 (static in class)
-- 13, 31, 32 (event propagation)
-- 17 (template literals)
-- 22 (sessionStorage)
-- 24, 56 (Set)
-- 40 - [1].concat([]) is not [1,[]]???
-- 44 (generator)
-- 45 (Promise.race)
-- 46, 50, 54, 58 Tricky and Nice!
-- 49 (parseInt, radix)
-- 65 (BEST explanation of reducer!)
-- 66 class extend
-- 68 (wrapper)
-
-## Somewhat:
-
-- 19 (… in arguments)
-- 23 (multiple var with same variable)
-- 28 (IIFE and scoping and (x=1),(y=2))
-- 52 (throw error)
-- 57, 67 (import)
-- 61 (defineProperty)
-
-# Syllabus
-
-Learn cache in browser

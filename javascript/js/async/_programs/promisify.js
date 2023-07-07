@@ -1,4 +1,6 @@
-// https://javascript.info/promisify
+// 1. https://exercism.org/tracks/javascript/exercises/promises
+
+// 2. https://javascript.info/promisify
 function promisify(fn) {
   return function (...args) {
     return new Promise((resolve, reject) => {

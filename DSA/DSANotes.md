@@ -1,11 +1,13 @@
 # Tips to solve problems
+
 - Comment code and create template/story as much as you can for every category of problems! https://assets.leetcode.com/users/images/5f6b5d99-9616-4a35-a452-94eac143aab6_1659794761.1005166.png
 - Create commented template to solve particular kind of problem. Then maybe, pick questions and fill in those places.
-- Follow Story format 
+- Follow Story format
 
 # Uncategorized
+
 - Project showcase - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC4DbreUL&t=3212
-    https://github.com/devAbhijeet?tab=repositories
+  https://github.com/devAbhijeet?tab=repositories
 - Weekly Contests <- How do I measure my performance, I am solving questions but am I improving
 
 - Try following this format - just follow Explore cards: DP, Array, Graph, Top Interview Q, Recursion ..
@@ -57,7 +59,7 @@ return helper(root, other_information)
   - Data Structure
   - Pattern (educative)
 - Use only 2 platforms to track problems/progress to keep it simple and easy: 'Leetcode' and 'vscode'
-- Save and memorize javascript tips/code/string methods etc. etc. that are handy for solving problems
+- Save and memorize javascript tips/code/string methods etc. that are handy for solving problems
 - Keep taking notes about what a problem is teaching you. Keep revisiting them. Spaced repitition helps in committing things to memory.
 
 # More

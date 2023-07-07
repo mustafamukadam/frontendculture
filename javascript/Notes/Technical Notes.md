@@ -21,6 +21,8 @@ arr.slice() to create copy of array
 as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
 https://www.greatfrontend.com/questions/javascript/flatten
 
+Math.hypot 
+
 
 # Github: https://github.com/lydiahallie/javascript-questions
 
@@ -41,3 +43,32 @@ https://www.greatfrontend.com/questions/javascript/flatten
 - An imported module is read-only: you cannot modify the imported module. Only the module that exports them can change its value.
 - The value of the accumulator is equal to the previously returned value of the callback function. If you don't pass the optional initialValue argument to the reduce method, the accumulator is equal to the first element on the first call (and curr value is equal to 2nd element I think).
 - With the import keyword, all imported modules are pre-parsed. This means that the imported modules get run first, the code in the file which imports the module gets executed after.
+
+Js PsDs
+https://github.com/trekhleb/javascript-algorithms
+
+// 67
+## Revisit:
+
+- 8 (static in class)
+- 13, 31, 32 (event propagation)
+- 17 (template literals)
+- 22 (sessionStorage)
+- 24, 56 (Set)
+- 40 - [1].concat([]) is not [1,[]]???
+- 44 (generator)
+- 45 (Promise.race)
+- 46, 50, 54, 58 Tricky and Nice!
+- 49 (parseInt, radix)
+- 65 (BEST explanation of reducer!)
+- 66 class extend
+- 68 (wrapper)
+
+## Somewhat:
+
+- 19 (… in arguments)
+- 23 (multiple var with same variable)
+- 28 (IIFE and scoping and (x=1),(y=2))
+- 52 (throw error)
+- 57, 67 (import)
+- 61 (defineProperty)

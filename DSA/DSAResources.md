@@ -1,8 +1,10 @@
+📌 https://neetcode.io/practice
+
 # Next Todo
 
 ⭐️ Ask ChatGPT+ and Claude+ to list common DSA questions invloving recursion and give some eg that anything like this.
 
-generate all possible combinations of 5 numbers in array - MMT# 
+generate all possible combinations of 5 numbers in array - MMT#
 Backtracking - Combination Sum, Permutation, N-Queen
 
 // structy many DP problems (with video) free
@@ -47,10 +49,10 @@ https://leetcode.com/problems/sort-an-array/discuss/461394/Python-3-(Eight-Sorti
 # 3. Blog/Articles/videos -
 
 - https://github.com/labuladong/fucking-algorithm/tree/english
-⭐️ https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ
-https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/ NICE !!!
-https://leetcode.com/discuss/interview-experience/1664001/FAANG-Preparation-Journey
-https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
+  ⭐️ https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ
+  https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/ NICE !!!
+  https://leetcode.com/discuss/interview-experience/1664001/FAANG-Preparation-Journey
+  https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-google-and-amazon-heres-what-i-have-to-share-293852c1c98f
 
 ### Dynamic Programming (DP) is usually used to solve optimization problems. awesome post on tackling DP problems
 
@@ -74,12 +76,13 @@ https://medium.com/@yashgirdhar/11-companies-55-interviews-9-offers-including-go
   https://www.bigocheatsheet.com/
 - https://frontendmasters.com/courses/practical-algorithms/
 - https://github.com/kunal-kushwaha/Competitive-Programming-Resources
+  https://interviewguide.dev/
 
 # apply
 
 - https://leetcode.com/discuss/career/1648867/Best-Indian-startups-(early-mid-stage)-to-work-for-at-SDE2-level-(engineering-and-culture-wise)
 - https://www.linkedin.com/in/ranjith-perumalla-88728688/
-- https://www.linkedin.com/in/saymannan/    (careem, dubai)
+- https://www.linkedin.com/in/saymannan/ (careem, dubai)
 - Binance
 - 3M (masi Jeth)
 - interviews going virtual and with that increasing malpractises on Telegram groups...

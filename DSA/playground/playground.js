@@ -1,45 +1,26 @@
-//* canSum()
-let memo = new Map()
-function canSum(target, arr){
-    // base condition
-    if(target === 0) return true
-    if(target < 0) return false
+function howSum(target, arr) {
+    function howS(target, arr, memo) {
+        if (target == 0) return []
+        if (target < 0) return null
 
-    // if(memo.has(target)) return memo.get(target) // better to have in loop itself below I think
-    // return arr.some(num=>canSum(target-num, arr))
-    for(let num of arr){
-        if(memo.has(target)) return memo.get(target)
-        let result = canSum(target-num, arr)
-        memo.set(target-num, result)
-        if(result) return true
+        let combination = []
+        for (let a of arr) {
+            let result = howS(target - a, arr)
+            if (Array.isArray(result)) combination.concat(result)
+        }
+
+        return combination
     }
-    return false
-}
-test.skip('canSum without memo', () => {
-    // console.log("👉",canSum(7,[3,4]))
-    expect(canSum(7,[5, 3])).toEqual(false);
-    expect(canSum(7,[5,3,4,7])).toEqual(true);
-    expect(canSum(8,[2,3,5])).toEqual(true);
-});
 
-test('canSum memo required', () => {
-    // console.log("👉",canSum(7,[3,4]))
-    expect(canSum(301,[7,14])).toEqual(true);
-});
-
-
-//* gridTraveller()
-function grid(m, n){
-    // base case that returns answer
-    if(m < 1 || n < 1) return 0
-    if(m === 1 && n === 1) return 1
-
-    // Formula applied on sub-problem calls 
-    // that will give answer for current func call and return
-    return grid(m-1, n) + grid(m, n-1)
+    return howS(target, arr, new Map())
 }
 
-test('grid without memo', () => {
-    console.log("👉",grid(2,2))
-    // expect(grid()).toEqual();
+
+test('should howSum', () => {
+    // console.log('-->',howSum(19,[8,1]));
+    // console.log('-->', howSum(0, [8, 1]));
+    // console.log("2: ", howSum(7, [5, 3, 4, 7]));
+    expect(howSum(7, [5, 3, 4, 7])).toEqual([5, 1, 1])
+    expect(howSum(7, [2, 4])).toEqual(null)
+    // expect(howSum(19, [8, 1])).toEqual([8, 8, 1, 1, 1])
 });

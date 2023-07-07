@@ -1,31 +1,29 @@
-var coinChange = function(coins, amount) {
+function howSum(target, arr) {
+    function howS(target, arr, memo = new Map()) {
+        if (target == 0) return []
+        if (target < 0) return null
 
-    function fewestCoins(coins, amount, count = 0){
-        // when overflow beyond leaf node (amount <=0 )
-        if(amount === 0) {
-            return count
-        }
-        if(amount < 0) {
-        return -1
-    }
-        let minCount = Infinity
-        for(let coin of coins){
-            let currentCount = fewestCoins(coins, amount - coin, count+1)
-            if(currentCount >= 0 && currentCount < minCount){
-                    minCount = currentCount
+        // let combination = []
+        for (let a of arr) {
+            let result = howS(target - a, arr)
+            if (result != null) {
+                result.push(a)
+                return result
             }
         }
 
-        return minCount === Infinity ? -1 : minCount
+        return null
     }
 
-    return fewestCoins(coins, amount, 0)
-};
+    return howS(target, arr, new Map())
+}
 
-test('should coin change', () => {
-    expect(coinChange([1,2,5], 11)).toEqual(3)
-    expect(coinChange([1,3,4,5], 7)).toEqual(2)
-    expect(coinChange([1,3,4,5], 8)).toEqual(2)
-    expect(coinChange([1,3,4,5], 16)).toEqual(4)
-    // console.log('--->', coinChange([1,2,5], 11));
+
+test('should howSum', () => {
+    // console.log('-->',howSum(19,[8,1]));
+    // console.log('-->', howSum(0, [8, 1]));
+    // console.log("2: ", howSum(7, [5, 3, 4, 7]));
+    // expect(howSum(7, [5, 3, 4, 7])).toEqual([5, 1, 1])
+    // expect(howSum(7, [2, 4])).toEqual(null)
+    expect(howSum(19, [8, 1])).toEqual([1, 1, 1, 8, 8,])
 });
