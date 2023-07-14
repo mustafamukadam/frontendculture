@@ -1,3 +1,31 @@
+# Signups
+## 1. Greatfrontend - jownow008 - qg
+Total 106 questions.
+Completed - 1
+
+## 2. Exercism
+Only useful Tab -> "Tracks/javascript"
+It has Total of 140 Javascript Exercises:
+
+Completed: 4
+Inprogress: 7
+Available: 28
+Locked: 101
+-------
+Total = 140
+
+- Disabled Learning Mode = Now all Exercises are unlocked!
+
+1. Pass All Tests
+2. Mark as Complete (publish or not publish)
+3. Publish (if not published before)
+
+Exercise will be marked under Completed count even if not published
+Basically, I am interested in "Exercise". Every submission is an iteration. Pass all tests and Mark as complete. That's it!
+If find any intersting Exerscise, add it to js > programs or challenges or codewars...
+
+Author: https://exercism.org/profiles/SleeplessByte/contributions
+
 # This repo setup and instructions
 - Install Go Live extension
 - import appropriate file in index.js
@@ -5,6 +33,7 @@
 - add questions to practise next in ToDo Next.md so as to keep grinding without confusion
 
 ## Tips
+- Lodash github repo - https://github.com/lodash/lodash - all methods source code here
 - Devtools hint for inactive CSS properties - https://www.youtube.com/watch?v=UVtXrWvq_oI&list=PLNYkxOF6rcIBDSojZWBv4QJNoT4GNYzQD&index=2
 - One of the most common types of interview questions is to recreate a common feature in JavaScript
 - Markdown editing tips - https://code.visualstudio.com/docs/languages/markdown

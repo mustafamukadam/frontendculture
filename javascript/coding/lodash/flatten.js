@@ -1,10 +1,4 @@
-// // https://exercism.org/tracks/javascript/exercises/flatten-array/solutions?
-/*
------------------------------ 📌 Solutions -----------------------------
-*/
-
 function flatten1(array) {
-  // console.log('array: ', array);
   let x = array.reduce(
     (acc, curr) => {
       console.log('curr: ', curr)
@@ -19,6 +13,9 @@ function flatten1(array) {
   console.log('return: ', x);
   return x
 }
+// 📌
+
+// https://exercism.org/tracks/javascript/exercises/flatten-array/solutions?
 
 function flatten2(array) {
   return array.reduce((acc, curr) => acc.concat(Array.isArray(curr) ? flatten2(curr) : curr), [])

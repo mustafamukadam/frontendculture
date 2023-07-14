@@ -1,3 +1,5 @@
+My Notion Javascript - https://www.notion.so/7768e8d9d2ef4f01a40dfbd1e348b001?v=e0494e60dd9d469ba6989870b38e5799
+
 // 🤩 🤩 🤩 educative card gen works!
 
 # Challenge websites and accounts
