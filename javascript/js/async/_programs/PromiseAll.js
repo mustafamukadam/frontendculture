@@ -4,7 +4,7 @@
 */
 
 // forEach using then
-function promiseAll(promises) { // iterable instead of promises
+function promiseAll(promises) { // iterable instead of promises?
     
     return new Promise((resolve, reject) => {
         let unresolvedCount = promises.length

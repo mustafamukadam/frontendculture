@@ -63,3 +63,5 @@ async function getData1() {
   console.log('C',)
 
 //? -----------------------------------------------------------------
+
+// advanced coding questions and answers in async javascript: https://poe.com/s/Miaq2VwZHF1kFfDu81g5

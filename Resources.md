@@ -1,3 +1,14 @@
+- Get viral on github by creating javascript/algo/react/snippets etc. repo
+
+## Github Copilot
+- https://www.builder.io/blog/vscode-tips
+- https://www.youtube.com/playlist?list=PLj6YeMhvp2S5_hvBl2SE-7YCHYlLQ0bPt
+- https://www.reddit.com/r/webdev/comments/11hmsqp/github_copilot_whats_your_experience_been_like/
+- Docs: https://www.youtube.com/watch?v=96zhYFw7bZY
+- Prompt and Stop
+    - https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-openai-api
+    - https://help.openai.com/en/articles/5072263-how-do-i-use-stop-sequences
+
 ## Showcase / Profile
 Message Sagar on linkedin with Atlassian JobId - https://www.linkedin.com/in/sagar-deshmukh-0783ab30/
 https://github.com/devAbhijeet?tab=repositories
@@ -5,7 +16,8 @@ Project showcase - https://youtu.be/q-ylRxSxGcY?list=PLKhlp2qtUcSb_WQZC3sq9Vw3NC
 
 ## Resources
 
-⭐️⭐️⭐️⭐️⭐ Implement reactivity from Scratch - vue 3 reactivity course (downloaded)
+⭐️⭐️ Implement reactivity from Scratch - vue 3 reactivity course (downloaded)
+📜(Snippets) https://www.30secondsofcode.org/
 ⭐️ https://github.com/sadanandpai/javascript-code-challenges
 ui-bootcamp https://github.com/ayush013/
 
@@ -23,12 +35,6 @@ https://www.youtube.com/watch?v=qaGjS7-qWzg&list=PLNYkxOF6rcIAKIQFsNbV0JDws_G_bn
 ## tech blog
 
 https://netflixtechblog.com/
-https://www.joshwcomeau.com/snippets/
-
-## Javascript
-
-https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Useful_string_methods
-https://www.educative.io/courses/learn-object-oriented-programming-in-javascript
 https://www.joshwcomeau.com/snippets/
 
 ## experience

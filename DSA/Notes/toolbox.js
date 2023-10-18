@@ -1,5 +1,3 @@
-// educative card gen works!
-
 /* 
 string methods 
 */
@@ -10,7 +8,3 @@ string methods
 let str = "abc";
 let subStr = str.substring(1, 3);
 console.log(subStr); // "bc"
-
-
-
-

@@ -1,9 +1,9 @@
-// let p = Promise.resolve('done!')
-// console.log('p', p)
-// let p1 = Promise.resolve(p)
-// console.log('p1 === p', p1 === p) //true!
-// console.log('p1', p1)
-// p1.then(data => console.log(data))
+let p = Promise.resolve('done!')
+console.log('p', p)
+let p1 = Promise.resolve(p)
+console.log('p1 === p', p1 === p) //true!
+console.log('p1', p1)
+p1.then(data => console.log(data))
 
 /**
  * ⭐️ My (WRONG!) conclusion from above code - what I wrote is wrong!
@@ -21,19 +21,19 @@
  * link - https://javascript.info/promise-error-handling
  */
 
-// console.log("one");
-// new Promise(function (resolve, reject) {
-//   setTimeout(() => {
-//     // throw new Error("Whoops!"); // this inside async code will NOT be handled by catch
-//     reject(); // this inside async will be handled by catch
-//   }, 1000);
-//   // noSuchFunction(); // Error here (no such function)
-//   // reject(); // reject means catch() is expected
-// })
-//   .then(() => {
-//     // successful promise handlers, one or more
-//   })
-//   .catch(() => console.log("Handled!"));
+console.log("one");
+new Promise(function (resolve, reject) {
+  setTimeout(() => {
+    // throw new Error("Whoops!"); // this inside async code will NOT be handled by catch
+    reject(); // this inside async will be handled by catch
+  }, 1000);
+  // noSuchFunction(); // Error here (no such function)
+  // reject(); // reject means catch() is expected
+})
+  .then(() => {
+    // successful promise handlers, one or more
+  })
+  .catch(() => console.log("Handled!"));
 
 // console.log("two");
 

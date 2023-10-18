@@ -1,3 +1,5 @@
+⭐️ ⭐️ ⭐️ https://vercel.com/blog/how-react-18-improves-application-performance
+
 Different state management ways
 how would you go about passing data across multiple levels of depth, without passing it from component to component?
 

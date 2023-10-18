@@ -1,4 +1,4 @@
-// Basic
+// only async (Basic)
 const getFruit = async name => {
     const fruits = {
         pineapple: '🍍',
@@ -8,11 +8,10 @@ const getFruit = async name => {
 
     return fruits[name];
 };
-
 // getFruit('peach').then(console.log);
 
-// Async + Await
 
+// async await
 const makeSmoothie = async () => {
     const a = await getFruit('pineapple');
     const b = await getFruit('strawberry');
@@ -20,6 +19,8 @@ const makeSmoothie = async () => {
     return [a, b];
 };
 
+
+// without async await
 const makeSmoothie2 = () => {
     let a;
     return getFruit('pineapple')

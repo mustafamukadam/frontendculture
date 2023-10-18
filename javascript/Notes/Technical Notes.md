@@ -1,3 +1,5 @@
+abort fetch - https://github.com/30-seconds/30-seconds-of-code/blob/master/snippets/js/s/abort-fetch.md
+
 ## event loop
 
 The entire script is initially executed as a macro task

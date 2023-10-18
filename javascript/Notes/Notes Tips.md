@@ -1,3 +1,5 @@
+⭐️⭐️⭐️⭐️⭐️ markdown supports js! write ```js
+
 # Signups
 ## 1. Greatfrontend - jownow008 - qg
 Total 106 questions.
@@ -23,6 +25,9 @@ Total = 140
 Exercise will be marked under Completed count even if not published
 Basically, I am interested in "Exercise". Every submission is an iteration. Pass all tests and Mark as complete. That's it!
 If find any intersting Exerscise, add it to js > programs or challenges or codewars...
+
+## 3. Leetcode Javascript
+- Solve question then look at other people's different solutions and explanations to grasp 360d view of the problem.
 
 Author: https://exercism.org/profiles/SleeplessByte/contributions
 

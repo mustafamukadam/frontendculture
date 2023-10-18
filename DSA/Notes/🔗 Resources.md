@@ -1,22 +1,8 @@
-📌 https://neetcode.io/practice
-
-# Next Todo
-
-⭐️ Ask ChatGPT+ and Claude+ to list common DSA questions invloving recursion and give some eg that anything like this.
-
-generate all possible combinations of 5 numbers in array - MMT#
-Backtracking - Combination Sum, Permutation, N-Queen
-
-// structy many DP problems (with video) free
-https://structy.net/problems/fib/problem-index
-
-Cracking the codind interview
-ctci questions - https://leetcode.com/discuss/general-discussion/891461/CTCI-List
-https://leetcode.com/list/571r9emv/
-https://github.com/trekhleb/javascript-algorithms
-
 # 1.👩‍🏫 structure
-
+- https://labuladong.gitbook.io/algo-en/i.-dynamic-programming/besttimetobuyandsellstock
+- ⭐️ quizes section of neetcode
+- ⭐️ https://leetcode.com/studyplan/
+- ⭐️ https://www.techinterviewhandbook.org/algorithms/study-cheatsheet/
 - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
 - https://github.com/seanprashad/leetcode-patterns
 - https://hackernoon.com/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
@@ -29,10 +15,9 @@ https://github.com/trekhleb/javascript-algorithms
 - https://leetcode.com/discuss/general-discussion/458695/Dynamic-Programming-Patterns
 - https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/SYLLABUS.md
 - https://github.com/sindresorhus/awesome
+- https://leetcode.com/explore/interview/card/cheatsheets/720/resources/4725/
 
 # 2. 🚨 Questions -
-
-⭐️ https://performancejs.com/post/hde6d32/The-Best-Frontend-JavaScript-Interview-Questions-
 
 - https://www.hackerrank.com/interview/interview-preparation-kit
 - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
@@ -45,6 +30,7 @@ https://github.com/trekhleb/javascript-algorithms
 
 --- All sorting algorithms leetcode explained:
 https://leetcode.com/problems/sort-an-array/discuss/461394/Python-3-(Eight-Sorting-Algorithms)-(With-Explanation)
+https://www.30secondsofcode.org/js/algorithm/p/1/
 
 # 3. Blog/Articles/videos -
 
@@ -78,11 +64,11 @@ https://leetcode.com/problems/sort-an-array/discuss/461394/Python-3-(Eight-Sorti
 - https://github.com/kunal-kushwaha/Competitive-Programming-Resources
   https://interviewguide.dev/
 
-# apply
+  // structy many DP problems (with video) free
+https://structy.net/problems/fib/problem-index
 
-- https://leetcode.com/discuss/career/1648867/Best-Indian-startups-(early-mid-stage)-to-work-for-at-SDE2-level-(engineering-and-culture-wise)
-- https://www.linkedin.com/in/ranjith-perumalla-88728688/
-- https://www.linkedin.com/in/saymannan/ (careem, dubai)
-- Binance
-- 3M (masi Jeth)
-- interviews going virtual and with that increasing malpractises on Telegram groups...
+Cracking the codind interview
+ctci questions - https://leetcode.com/discuss/general-discussion/891461/CTCI-List
+https://leetcode.com/list/571r9emv/
+https://github.com/trekhleb/javascript-algorithms
+https://leetcode.com/problemset/javascript/

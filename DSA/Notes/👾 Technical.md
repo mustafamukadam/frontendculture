@@ -3,6 +3,7 @@
 - Comment code and create template/story as much as you can for every category of problems! https://assets.leetcode.com/users/images/5f6b5d99-9616-4a35-a452-94eac143aab6_1659794761.1005166.png
 - Create commented template to solve particular kind of problem. Then maybe, pick questions and fill in those places.
 - Follow Story format
+- Try to solve problems using multiple algorithms, backtracking, DP (both) if possible.
 
 # Uncategorized
 
