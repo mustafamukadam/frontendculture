@@ -1,3 +1,5 @@
+// #lodash 
+// don't need separate lodash folder
 function flatten1(array) {
   let x = array.reduce(
     (acc, curr) => {
@@ -89,7 +91,7 @@ https://exercism.org/tracks/javascript/exercises/flatten-array/solutions?
 */
 
 /*
------------------------------ 🗑 Archive -----------------------------
+-----------------------------  Final Proper -----------------------------
 */
 
 

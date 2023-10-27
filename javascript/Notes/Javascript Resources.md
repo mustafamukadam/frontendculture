@@ -1,11 +1,12 @@
 # Challenge websites and accounts
 
+Leetcode
+GFE - joenow008 (qg)
 Exercism - technogeek
 codewars - m.m52
-GFE - joenow008 (qg)
 
 # Good exercise solution pattern
-⭐️⭐️⭐️⭐️ https://leetcode.com/studyplan/30-days-of-javascript/
+⭐️⭐️ https://leetcode.com/studyplan/30-days-of-javascript/
 https://frontendmasters.com/courses/js-fundamentals-functional-v2/
 https://frontendmasters.com/courses/js-fundamentals-functional-v2/scope-walkthrough-part-1/ (scope)
 

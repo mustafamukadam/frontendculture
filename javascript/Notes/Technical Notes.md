@@ -1,15 +1,4 @@
 abort fetch - https://github.com/30-seconds/30-seconds-of-code/blob/master/snippets/js/s/abort-fetch.md
-
-## event loop
-
-The entire script is initially executed as a macro task
-
-This means that the JS Engine is just an on-demand execution environment for any arbitrary JS code.
-So, for example, when your JavaScript program makes an Ajax request to fetch some data from the server, you set up the “response” code in a function (the “callback”), and the JS Engine tells the hosting environment:
-“Hey, I’m going to suspend execution for now, but whenever you finish with that network request, and you have some data, please call this function back.”
-
-It’s interesting to note that ES6 specifies how the event loop should work, meaning that technically it’s within the scope of the JS engine’s responsibilities, which is no longer playing just a hosting environment role. One main reason for this change is the introduction of Promises in ES6 because the latter require access to a direct, fine-grained control over scheduling operations on the event loop queue
-
 ## building the page at runtime
 
 When the browser reaches the script node in the page-building phase, it pauses the DOM construction based on HTML code and starts executing JavaScript code instead.
@@ -17,14 +6,6 @@ When the browser reaches the script node in the page-building phase, it pauses t
 # Js toolbox 🛠
 
 arr.slice() to create copy of array
-
-# Notes
-
-as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
-https://www.greatfrontend.com/questions/javascript/flatten
-
-Math.hypot 
-
 
 # Github: https://github.com/lydiahallie/javascript-questions
 
@@ -74,3 +55,12 @@ https://github.com/trekhleb/javascript-algorithms
 - 52 (throw error)
 - 57, 67 (import)
 - 61 (defineProperty)
+
+# Notes
+
+as of this writing, in chrome, the number of recursive calls you can make is around 10 thousands and in Firefox it is 50 thousands
+https://www.greatfrontend.com/questions/javascript/flatten
+
+Math.hypot 
+
+- ```substring()``` method with two indices, the method expects the first index to be less than the second index. However, JavaScript is forgiving and will automatically swap the indices if the second index is smaller than the first. 

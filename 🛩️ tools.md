@@ -20,3 +20,6 @@ eg: Document interface Food
 
 # Notes
 - Provide Context and be Predictable
+
+# VsCode
+- Press alt while dragging image to .md file

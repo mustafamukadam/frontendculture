@@ -72,7 +72,12 @@ advanced coding questions and answers in async javascript: https://poe.com/s/Mia
 
 more:
 
-# 📌 4. Scratchpad 📜
+## event loop
 
+The entire script is initially executed as a macro task
 
+This means that the JS Engine is just an on-demand execution environment for any arbitrary JS code.
+So, for example, when your JavaScript program makes an Ajax request to fetch some data from the server, you set up the “response” code in a function (the “callback”), and the JS Engine tells the hosting environment:
+“Hey, I’m going to suspend execution for now, but whenever you finish with that network request, and you have some data, please call this function back.”
 
+It’s interesting to note that ES6 specifies how the event loop should work, meaning that technically it’s within the scope of the JS engine’s responsibilities, which is no longer playing just a hosting environment role. One main reason for this change is the introduction of Promises in ES6 because the latter require access to a direct, fine-grained control over scheduling operations on the event loop queue.
