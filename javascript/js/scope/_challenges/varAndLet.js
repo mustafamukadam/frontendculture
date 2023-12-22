@@ -4,7 +4,7 @@
 // let x = 1;
 
 // function func() {
-//   console.log(x); // ReferenceError: Cannot access 'x' before initialization
+//   console.log(x);
 //   let x = 2;
 // }
 // func();
@@ -22,7 +22,7 @@
 // var x = 1;
 
 // function func() {
-//   console.log(x); // ReferenceError: Cannot access 'x' before initialization
+//   console.log(x);
 //   let x = 2;
 // }
 // func();
@@ -30,7 +30,7 @@
 // let x = 1;
 
 // function func() {
-//   console.log(x); // undefined
+//   console.log(x);
 //   var x = 2;
 // }
 // func();
@@ -39,8 +39,8 @@
 
 /** 📌-----------------------------------📌  */
 // function sayHi() {
-//   console.log(name); // undefined
-//   console.log(age); // ReferenceError
+//   console.log(name); 
+//   console.log(age);
 //   var name = 'Lydia';
 //   let age = 21;
 // }

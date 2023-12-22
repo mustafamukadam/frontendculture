@@ -8,4 +8,5 @@ var a = 10;
 console.log(a) //output:10
 
 // Interesting =
-// The function declaration in the block uses ES6 declaration semantics (like let or const), which does not allow re-declarations.
+// The function declaration in the block uses ES6 declaration semantics (like let or const), 
+// which does not allow re-declarations.

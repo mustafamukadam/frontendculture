@@ -1,6 +1,5 @@
 module.exports = {
-    testPathIgnorePatterns: ['<rootDir>/Notes/','<rootDir>/index.js/',
-                            '<rootDir>/snippets.js/'
-                        ],
+    rootDir: '/Users/mustafa.mukadam/Learn/frontendculture/javascript',
+    testRegex: 'coding/notion/.*\\.test\\.js$',
 };
   

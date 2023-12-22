@@ -1,5 +1,6 @@
 //🚖 getFruit() that returns Promise<emoji>
 const fruits = ['peach', 'pineapple', 'strawberry'];
+
 const getFruit = async name => {
     const fruits = {
         pineapple: '🍍',

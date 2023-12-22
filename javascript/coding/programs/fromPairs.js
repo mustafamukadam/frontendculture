@@ -1,5 +1,9 @@
-// ✅
-// my solution - all test pass on gfe
+/*
+from pairs lodash
+#lodash #gfe
+*/
+
+// ✅ Final
 function fromPairs(pairs) {
     let obj = {}
   
@@ -10,13 +14,7 @@ function fromPairs(pairs) {
     return obj
   }
 
-/**
-#gfe
-Links:
-https://www.greatfrontend.com/questions/javascript/from-pairs?list=lodash
-*/
-
-// gfe solution
+// gfe solution - https://www.greatfrontend.com/questions/javascript/from-pairs?list=lodash
 export default function fromPairs(pairs) {
     const result = {};
   
@@ -26,8 +24,3 @@ export default function fromPairs(pairs) {
   
     return result;
   }
-
-/**
- * Notes:
- * for vs 
- */

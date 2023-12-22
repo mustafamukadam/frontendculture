@@ -1,5 +1,5 @@
-//⭐️ challenges ⭐️
 https://bytefish.medium.com/list/code-chanllenge-0b76b6b40281
+
 //? -----------------------------------------------------------------
 console.log('A')
 async function getData() {
@@ -10,7 +10,8 @@ console.log('B')
 
 /**
  * Understand this Simple concept to solve below questions:
- * Whenever 'async function getData(){ <inner code> }' encountered it add getData() to event loop and proceed.
+ * Whenever 'async function getData(){ <inner code> }' encountered,
+ * it add getData() to event loop and proceed (not entirely true, I think only code starting from await is added to event loop, before that is executed immediately)
  * Once done with all sync code, it executes callbacks in event loop. Now interesting part - it is possible 
  * that there is some other cb waiting BEFORE <inner code> i.e., before getData(),
  * so it will execute that first then <inner code>

@@ -3,6 +3,7 @@
 
 # Tips
 - Draw node tree and add pic to leetcode notes.
+- use emojis to mark notes like 💚 for favourite then use "Find" to quickly find - https://poe.com/s/1lgcbWm7GauAKLA7fcW7
 - ⭐️ ⭐️ ⭐️ Just follow neetcode.io to practise and track
     - And use Awesome leetcode features for notes - 1.) md notes 2.) Individual submission notes..
     - use study plan - Set 'n' number of questions to practise and choose any day of the week!

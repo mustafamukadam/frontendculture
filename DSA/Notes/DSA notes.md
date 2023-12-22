@@ -1,2 +1,0 @@
-- There are only two ways to store data structures: as arrays (sequential storage) or as linked lists (linked storage)
-https://github.com/labuladong/fucking-algorithm/blob/english/think_like_computer/Framework%20and%20thoughts%20about%20learning%20data%20structure%20and%20algorithm.md

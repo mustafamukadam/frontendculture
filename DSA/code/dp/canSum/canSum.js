@@ -1,6 +1,6 @@
-/* 📝 Notes and ToDos
+/* Notes and ToDos
 analyze comlexity - Time: O(m*n) Space: O(m) - https://youtu.be/oBt53YbR9Kk?t=5314
-❗️ Not working for negative array values like expect(canSum(5,[-2,3])).toEqual(true);
+Not working for negative array values like expect(canSum(5,[-2,3])).toEqual(true);
 
 📝 Even with memo, target = 3000 is fine, getting RangeError: Maximum call stack size exceeded for 30000,
 looks like nothing wrong with logic but function is recursively called too many times,

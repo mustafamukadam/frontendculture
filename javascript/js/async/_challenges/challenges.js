@@ -1,62 +1,62 @@
 //https://github.com/sadanandpai/javascript-code-challenges/blob/main/challenges/async-challenges.md#home
 
-// Q. Create a function which receives a function as argument and executes it after 2 seconds
-// function execute(fn, delay){
-//     setTimeout(fn, delay);
-// }
+//Q. Create a function which receives a function as argument and executes it after 2 seconds
+function execute(fn, delay){
+    setTimeout(fn, delay);
+}
 
-// function display(){console.log('hey there!')}
+function display(){console.log('hey there!')}
 
-// execute(display, 3000)
+execute(display, 3000)
 
 //? -----------------------------------------------------------------
 // Q. Print numbers from 1 to 10 with delay of 1 second between each value being printed
 
-// for(let i = 1; i < 11; i++){
-//     setTimeout(() => {
-//         console.log('>',i)
-//     }, i*2000);
-// }
+for(let i = 1; i < 11; i++){
+    setTimeout(() => {
+        console.log('>',i)
+    }, i*2000);
+}
 
 //? -----------------------------------------------------------------
 //Q. Print numbers from 1 to 10 with delay of 1 second between each value being printed using setInterval
-// let i = 1
-// let id = setInterval(() => {
-//     console.log('>',i++)
-//     if(i > 10) clearTimeout(id)
-// }, 1000);
+let i = 1
+let id = setInterval(() => {
+    console.log('>',i++)
+    if(i > 10) clearTimeout(id)
+}, 1000);
 
 //? -----------------------------------------------------------------
 //Q. Print numbers from 10 to 1 with delay of 1 second between each value being printed using setTimeout using pre ES6 features only
-// for(var i = 10; i >0; i--){
-//     (function(i){
-//         setTimeout(console.log, (11-i)*1000, i)
-//     })(i)    
-// }
+for(var i = 10; i >0; i--){
+    (function(i){
+        setTimeout(console.log, (11-i)*1000, i)
+    })(i)    
+}
 
 //? -----------------------------------------------------------------
 //Q. Write a utility which prints numbers starting from an initial value and increment in steps which can be started and stopped by the user, any number of times
 
-// function stopwatchUtility(initial = 0, delay = 1000, step = 1) {
-//     let id;
-//     function startTimer() {
-//         id = setInterval(() => {
-//             console.log('>', initial)
-//             initial += step
-//         }, delay)
-//     }
+function stopwatchUtility(initial = 0, delay = 1000, step = 1) {
+    let id;
+    function startTimer() {
+        id = setInterval(() => {
+            console.log('>', initial)
+            initial += step
+        }, delay)
+    }
 
-//     return {
-//         start(){startTimer()},
-//         stop(){clearInterval(id)}
-//     }
-// }
+    return {
+        start(){startTimer()},
+        stop(){clearInterval(id)}
+    }
+}
 
-// let stopwatch = stopwatchUtility(10, 1000, 5);
-// stopwatch.start()
-// setTimeout(() => {
-//     stopwatch.stop()
-// }, 5000);
+let stopwatch = stopwatchUtility(10, 1000, 5);
+stopwatch.start()
+setTimeout(() => {
+    stopwatch.stop()
+}, 5000);
 
 
 //? -----------------------------------------------------------------

@@ -25,8 +25,7 @@ const p = promisify("a", 100)
 
 - ❓ MDN ai (emphasis on order of 'execution' not order of values in resolved promises array) Remember, when using concurrent resolution, the order of execution is not guaranteed. If maintaining the order is important, you should use sequential resolution methods like for...of or Array.prototype.forEach. Also this-
 (*) you can use the Array.prototype.map() method to create an array of promises and then use Promise.all() to resolve them concurrently. The resolved array values will maintain the original order of promises provided to the map() method.
-But this - The order of resolved values in Promise.all() is not guaranteed because the order in which the promises are resolved is not guaranteed. If the order of the resolved values is important, you can use the Array.map() method to map the resolved values back to their original order based on an identifier or index.
-Source: chatgpt 3. question - https://poe.com/s/EYpEUmqn5BTsFdF4tvRb
+chatgpt 10 questions on Promise - https://poe.com/s/EYpEUmqn5BTsFdF4tvRb
 (not sure if this is correct, refer Promise.all polyfill - GFE)
 ✅ SOLVED - The returned Promise contains an array of resolved values in the same order as the input if all of them are fulfilled. (GFE)
 

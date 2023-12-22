@@ -12,11 +12,11 @@ promise.then((data) => log(data))
 ```
 
 ---
-What-happens-when in Promise:
+"What-happens-when" in Promise:
 1. `new Promise()` creates a promise `p`
 2. Whenever executor function implementation of Promise calls `resolve()`, wherever `p.then(cb)` exists, `cb` will be called (after current tick)
 ---
-Promise in a sentence: https://poe.com/s/PtVQd1GlYhQqCc7Qwrm5
+Promise.all in a sentence: https://poe.com/s/PtVQd1GlYhQqCc7Qwrm5
 
 ---
 

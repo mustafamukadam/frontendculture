@@ -1,18 +1,17 @@
-# ⭐️⭐️⭐️⭐️
 ```
 function Foo() {
    let name = "mustafa" // private variable
    this.name = "mustafa // public because created on object if Foo called with new()
 }
 ```
-# ⭐️⭐️ Lexical Environment creation clarity - 
-📝 So, counter.[[Environment]] has the reference to {count: 0} Lexical Environment. That’s how the function remembers where it was created, no matter where it’s called. The [[Environment]] reference is set once and forever at function creation time.
+# ⭐️ Lexical Environment creation clarity - 
+📝 So, ```counter.[[Environment]]``` (counter is a funct) has the reference to {count: 0} Lexical Environment. That’s how the function remembers where it was created, no matter where it’s called. The [[Environment]] reference is set once and forever at function creation time.
 
 Later, when counter() is called, a new Lexical Environment is created for the call, and its outer Lexical Environment reference is taken from counter.[[Environment]]:
 
 💡It means that - 
 FIRST - [[Environment]] which is a hidden property associated with function, is created at function creation time.
-THEN - when function is called(), __then__ new Lexical Environment is created for that call and 👉its outer Lexical Environment reference is TAKEN from counter.[[Environment]]" 👈
+(may be wrong, because [[Environment]] is part of lexical Environment, not something separate) THEN - when function is called(), __then__ new Lexical Environment is created for that call and 👉its outer Lexical Environment reference is TAKEN from counter.[[Environment]]" 👈
 
 --
 

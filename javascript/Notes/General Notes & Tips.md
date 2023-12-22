@@ -47,12 +47,12 @@ Completed - 1
 
 ## 4. Exercism - technogeek
 Only useful Tab -> "Tracks/javascript"
-It has Total of 140 Javascript Exercises:
+It has Total of 141 Javascript Exercises:
 
-Completed: 4
-Inprogress: 7
-Available: 28
-Locked: 101
+Completed: 8
+Inprogress: 8
+Available: 125
+Locked: 0
 -------
 Total = 140
 

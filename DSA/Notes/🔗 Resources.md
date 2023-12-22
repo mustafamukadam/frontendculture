@@ -35,6 +35,8 @@ https://www.30secondsofcode.org/js/algorithm/p/1/
 # 3. Blog/Articles/videos -
 
 - https://github.com/labuladong/fucking-algorithm/tree/english
+- https://formation.dev/guide/
+Neetcode - The Path to Enlightenment - https://www.youtube.com/watch?v=VHZDxOmRthE
   ⭐️ https://www.youtube.com/watch?v=Gj5qBheGOEo&list=PLWKjhJtqVAbkso-IbgiiP48n-O-JQA9PJ
   https://www.freecodecamp.org/news/coding-interviews-for-dummies-5e048933b82b/ NICE !!!
   https://leetcode.com/discuss/interview-experience/1664001/FAANG-Preparation-Journey
